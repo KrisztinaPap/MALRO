@@ -26,15 +26,51 @@ i {
 }
 .bg-img-1 {
     position: relative;
-    opacity: 0.65;
+    opacity: 0.75;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
   
-  .bg-img-1 {
-    background-image: url("/background.png");
+.bg-img-1 {
+    background-image: url("/images/Fleet.jpg");
     min-height: 100vh; }
+
+.bg-img-2 {
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg-img-2 {
+  background-image: url("/images/Abyss\ 1.jpg");
+  min-height: 100vh; }
+
+.bg-img-3 {
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg-img-3 {
+  background-image: url("/images/Abyss\ 111.jpg");
+  min-height: 100vh; }
+
+.bg-img-4 {
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg-img-4 {
+  background-image: url("/images/Abyss\ 5.jpg");
+  min-height: 100vh; }
   
   .caption {
     position: absolute;
@@ -44,7 +80,7 @@ i {
   
   .caption span.border {
     background-color: #000000;
-    padding: 18px; }
+    padding: 22px; }
 
     /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -353,10 +389,12 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 3rem;
+  color: #FF8300; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 2.5rem;
+  color: #FF8300;  }
 
 h3, .h3 {
   font-size: 1.75rem; }
